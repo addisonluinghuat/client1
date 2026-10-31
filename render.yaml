@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: my-wasm-app
+    env: static
+    buildCommand: npm run build
+    publishPath: dist
+    routes:
+      - type: header
+        path: "/*"
+        headers:
+          - key: "Access-Control-Allow-Origin"
+            value: "*"
+          - key: "Access-Control-Allow-Methods"
+            value: "GET, OPTIONS"
