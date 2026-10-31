@@ -1,0 +1,12 @@
+{
+  "name": "godot-render-web",
+  "version": "1.0.0",
+  "description": "Godot web host wrapper",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

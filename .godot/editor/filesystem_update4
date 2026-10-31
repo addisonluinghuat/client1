@@ -1,0 +1,4 @@
+res://high_level_example/scripts/high_level_network_handler.gd
+res://high_level_example/scenes/high_level_ui.tscn
+res://high_level_example/scripts/high_level_player_spawner.gd
+res://high_level_example/scenes/high_level_example.tscn
